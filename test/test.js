@@ -6,7 +6,7 @@ describe('GET /', function(done) {
    it('displays "Hello World!"', function(done) {
      // The line below is the core test of our app.
      request.get('/')
-      .expect('Hello Wrld!')
+      .expect('Hello World!')
       .then(() => done())
       .catch(done)
    })
