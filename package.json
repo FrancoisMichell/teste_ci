@@ -1,0 +1,16 @@
+{
+  "name": "teste_ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/francoisMich/teste_ci.git",
+  "author": "FMichell <FMichell>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "supertest": "^4.0.2"
+  }
+}
